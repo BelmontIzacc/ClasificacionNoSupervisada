@@ -10,7 +10,6 @@ import java.awt.Color;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import objetos.Patron;
-import sun.java2d.pipe.hw.BufferedContextProvider;
 
 /**
  *
@@ -39,7 +38,7 @@ public class ClusterAdapter {
                 new BufferedImage(this.imagenOriginal.getWidth(),
                         this.imagenOriginal.getHeight(),BufferedImage.TYPE_INT_RGB);
         //recorremos las instancias 
-        for (Patron patron: instancias){
+        for (Patron patron: instancias){           
           String nombre = patron.getClase();
           // recorremos los ultimos centroides
           for(int y = 0; y < centroidesUltimos.length;y++){

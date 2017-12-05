@@ -144,10 +144,10 @@ public class Patron {
     }
     
     
-    public int obtenerRGB (){
+    public int obtenerRGB ()
+    {
          Color aux = new Color((int)vector[0],(int) vector[1],(int)vector[2]);
-       return aux.getRGB();
-    
+       return aux.getRGB();   
     }
     
     

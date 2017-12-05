@@ -71,7 +71,7 @@ public class CMeans {
        etiquetar(this.getCentroides().get(this.getCentroides().size()-1));
        System.out.println(contador++);
       
-     }while (!verificaCentroides()&&contador<500);
+     }while (!verificaCentroides()&&contador<200);
         
     
     }
